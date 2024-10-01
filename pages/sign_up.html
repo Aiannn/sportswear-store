@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles_sign_up.css">
+    <title>Sign Up Page</title>
+</head>
+<body>
+    <header class="container-fluid px-5 py-2 d-flex bg-dark border-bottom justify-content-between">
+        <svg id="logo-38" width="78" height="32" viewBox="0 0 78 32" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M55.5 0H77.5L58.5 32H36.5L55.5 0Z" class="ccustom" fill="#FF7A00"></path> <path d="M35.5 0H51.5L32.5 32H16.5L35.5 0Z" class="ccompli1" fill="#FF9736"></path> <path d="M19.5 0H31.5L12.5 32H0.5L19.5 0Z" class="ccompli2" fill="#FFBC7D"></path> </svg>
+        <ul class="nav nav-underline">
+            <li class="nav-item">
+              <a class="nav-link link-light" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-light" href="./pages/products.html">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-light" href="./pages/checkout.html">Checkout</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-light" href="/pages/log_in.html">Log In</a>
+            </li>
+        </ul>
+    </header>
+    <main>
+        <div class="container">
+            <div class="signup-container">
+                <h2 class="text-center mb-4">Create an Account</h2>
+                <form>
+                    <!-- Username Field -->
+                    <div class="mb-3">
+                        <label for="username" class="form-label">Username</label>
+                        <input type="text" class="form-control" id="username" placeholder="Enter your username" required>
+                    </div>
+    
+                    <!-- Email Field -->
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email Address</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                    </div>
+    
+                    <!-- Password Field -->
+                    <div class="mb-3">
+                        <label for="password" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="password" placeholder="Enter your password" required>
+                    </div>
+    
+                    <!-- Password Confirm Field -->
+                    <div class="mb-3">
+                        <label for="confirmPassword" class="form-label">Confirm Password</label>
+                        <input type="password" class="form-control" id="confirmPassword" placeholder="Confirm your password" required>
+                    </div>
+    
+                    <!-- Radio Buttons: How Did You Hear About Us? -->
+                    <div class="mb-3">
+                        <label class="form-label">How did you hear about us?</label>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="source" id="google" value="google">
+                            <label class="form-check-label" for="google">
+                                Google
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="source" id="instagram" value="instagram">
+                            <label class="form-check-label" for="instagram">
+                                Instagram
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="source" id="banner" value="banner">
+                            <label class="form-check-label" for="banner">
+                                Banner Ad
+                            </label>
+                        </div>
+                    </div>
+    
+                    <!-- Submit Button -->
+                    <button type="submit" class="btn btn-primary w-100">Sign Up</button>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

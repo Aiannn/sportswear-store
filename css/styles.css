@@ -1,0 +1,17 @@
+.bg-image {
+    background-image: url('../images/main.jpg');
+    background-size: cover;
+    /* Cover the entire element */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Prevent repeating */
+    height: 100vh;
+    /* Set a specific height */
+    width: 100%;
+}
+
+.card img {
+    height: 250px;
+    object-fit: cover;
+}
